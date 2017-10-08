@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <Chatbot>
+    <Question q = "Hi" a = "Hello">
+        <Follow_up_Question f="How are you?" a="Great! :)">
+        </Follow_up_Question>
+    </Question>
+    <Question q = "What is your name?" a = "Im Chatbot. Nice to meet ya :)">
+            <Follow_up_Question f="Who do you work for?" a="You actually. :)">
+            </Follow_up_Question>
+    </Question>
+    <Question q = "Can I get to work with you?" a = "Yea sure">
+           <Follow_up_Question f="1" a="1">
+                <Follow_up_Question f="2" a="2">
+                                <Follow_up_Question f="3" a="3">
+                                                <Follow_up_Question f="4" a="4">
+                                                           </Follow_up_Question>
+                                           </Follow_up_Question>
+                           </Follow_up_Question>
+           </Follow_up_Question>
+    </Question>
+ </Chatbot>
